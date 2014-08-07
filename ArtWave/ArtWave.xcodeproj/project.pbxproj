@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133033F19930ADA00D72DBA /* Foundation.framework */; };
+		5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034119930ADB00D72DBA /* CoreGraphics.framework */; };
+		5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034319930ADB00D72DBA /* UIKit.framework */; };
+		5133034A19930ADB00D72DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5133034819930ADB00D72DBA /* InfoPlist.strings */; };
+		5133034C19930ADB00D72DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133034B19930ADB00D72DBA /* main.m */; };
+		5133035019930ADB00D72DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133034F19930ADB00D72DBA /* AppDelegate.m */; };
+		5133035319930ADB00D72DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5133035119930ADB00D72DBA /* Main.storyboard */; };
+		5133035619930ADB00D72DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133035519930ADB00D72DBA /* ViewController.m */; };
+		5133035819930ADB00D72DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5133035719930ADB00D72DBA /* Images.xcassets */; };
+		5133035F19930ADB00D72DBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133035E19930ADB00D72DBA /* XCTest.framework */; };
+		5133036019930ADB00D72DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133033F19930ADA00D72DBA /* Foundation.framework */; };
+		5133036119930ADB00D72DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034319930ADB00D72DBA /* UIKit.framework */; };
+		5133036919930ADB00D72DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5133036719930ADB00D72DBA /* InfoPlist.strings */; };
+		5133036B19930ADB00D72DBA /* ArtWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133036A19930ADB00D72DBA /* ArtWaveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5133036219930ADB00D72DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5133033419930ADA00D72DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5133033B19930ADA00D72DBA;
+			remoteInfo = ArtWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5133033C19930ADA00D72DBA /* ArtWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5133033F19930ADA00D72DBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5133034119930ADB00D72DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5133034319930ADB00D72DBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5133034719930ADB00D72DBA /* ArtWave-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArtWave-Info.plist"; sourceTree = "<group>"; };
+		5133034919930ADB00D72DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5133034B19930ADB00D72DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5133034D19930ADB00D72DBA /* ArtWave-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtWave-Prefix.pch"; sourceTree = "<group>"; };
+		5133034E19930ADB00D72DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5133034F19930ADB00D72DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5133035219930ADB00D72DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5133035419930ADB00D72DBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5133035519930ADB00D72DBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5133035719930ADB00D72DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5133035D19930ADB00D72DBA /* ArtWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5133035E19930ADB00D72DBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5133036619930ADB00D72DBA /* ArtWaveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArtWaveTests-Info.plist"; sourceTree = "<group>"; };
+		5133036819930ADB00D72DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5133036A19930ADB00D72DBA /* ArtWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtWaveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5133033919930ADA00D72DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */,
+				5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */,
+				5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5133035A19930ADB00D72DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133035F19930ADB00D72DBA /* XCTest.framework in Frameworks */,
+				5133036119930ADB00D72DBA /* UIKit.framework in Frameworks */,
+				5133036019930ADB00D72DBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5133033319930ADA00D72DBA = {
+			isa = PBXGroup;
+			children = (
+				5133034519930ADB00D72DBA /* ArtWave */,
+				5133036419930ADB00D72DBA /* ArtWaveTests */,
+				5133033E19930ADA00D72DBA /* Frameworks */,
+				5133033D19930ADA00D72DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5133033D19930ADA00D72DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5133033C19930ADA00D72DBA /* ArtWave.app */,
+				5133035D19930ADB00D72DBA /* ArtWaveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5133033E19930ADA00D72DBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5133033F19930ADA00D72DBA /* Foundation.framework */,
+				5133034119930ADB00D72DBA /* CoreGraphics.framework */,
+				5133034319930ADB00D72DBA /* UIKit.framework */,
+				5133035E19930ADB00D72DBA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5133034519930ADB00D72DBA /* ArtWave */ = {
+			isa = PBXGroup;
+			children = (
+				5133034E19930ADB00D72DBA /* AppDelegate.h */,
+				5133034F19930ADB00D72DBA /* AppDelegate.m */,
+				5133035119930ADB00D72DBA /* Main.storyboard */,
+				5133035419930ADB00D72DBA /* ViewController.h */,
+				5133035519930ADB00D72DBA /* ViewController.m */,
+				5133035719930ADB00D72DBA /* Images.xcassets */,
+				5133034619930ADB00D72DBA /* Supporting Files */,
+			);
+			path = ArtWave;
+			sourceTree = "<group>";
+		};
+		5133034619930ADB00D72DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5133034719930ADB00D72DBA /* ArtWave-Info.plist */,
+				5133034819930ADB00D72DBA /* InfoPlist.strings */,
+				5133034B19930ADB00D72DBA /* main.m */,
+				5133034D19930ADB00D72DBA /* ArtWave-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5133036419930ADB00D72DBA /* ArtWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5133036A19930ADB00D72DBA /* ArtWaveTests.m */,
+				5133036519930ADB00D72DBA /* Supporting Files */,
+			);
+			path = ArtWaveTests;
+			sourceTree = "<group>";
+		};
+		5133036519930ADB00D72DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5133036619930ADB00D72DBA /* ArtWaveTests-Info.plist */,
+				5133036719930ADB00D72DBA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5133033B19930ADA00D72DBA /* ArtWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5133036E19930ADB00D72DBA /* Build configuration list for PBXNativeTarget "ArtWave" */;
+			buildPhases = (
+				5133033819930ADA00D72DBA /* Sources */,
+				5133033919930ADA00D72DBA /* Frameworks */,
+				5133033A19930ADA00D72DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtWave;
+			productName = ArtWave;
+			productReference = 5133033C19930ADA00D72DBA /* ArtWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5133035C19930ADB00D72DBA /* ArtWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5133037119930ADB00D72DBA /* Build configuration list for PBXNativeTarget "ArtWaveTests" */;
+			buildPhases = (
+				5133035919930ADB00D72DBA /* Sources */,
+				5133035A19930ADB00D72DBA /* Frameworks */,
+				5133035B19930ADB00D72DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5133036319930ADB00D72DBA /* PBXTargetDependency */,
+			);
+			name = ArtWaveTests;
+			productName = ArtWaveTests;
+			productReference = 5133035D19930ADB00D72DBA /* ArtWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5133033419930ADA00D72DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = datatech;
+				TargetAttributes = {
+					5133035C19930ADB00D72DBA = {
+						TestTargetID = 5133033B19930ADA00D72DBA;
+					};
+				};
+			};
+			buildConfigurationList = 5133033719930ADA00D72DBA /* Build configuration list for PBXProject "ArtWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5133033319930ADA00D72DBA;
+			productRefGroup = 5133033D19930ADA00D72DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5133033B19930ADA00D72DBA /* ArtWave */,
+				5133035C19930ADB00D72DBA /* ArtWaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5133033A19930ADA00D72DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133035819930ADB00D72DBA /* Images.xcassets in Resources */,
+				5133034A19930ADB00D72DBA /* InfoPlist.strings in Resources */,
+				5133035319930ADB00D72DBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5133035B19930ADB00D72DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133036919930ADB00D72DBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5133033819930ADA00D72DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133035619930ADB00D72DBA /* ViewController.m in Sources */,
+				5133035019930ADB00D72DBA /* AppDelegate.m in Sources */,
+				5133034C19930ADB00D72DBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5133035919930ADB00D72DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133036B19930ADB00D72DBA /* ArtWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5133036319930ADB00D72DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5133033B19930ADA00D72DBA /* ArtWave */;
+			targetProxy = 5133036219930ADB00D72DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5133034819930ADB00D72DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5133034919930ADB00D72DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5133035119930ADB00D72DBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5133035219930ADB00D72DBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5133036719930ADB00D72DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5133036819930ADB00D72DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5133036C19930ADB00D72DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5133036D19930ADB00D72DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5133036F19930ADB00D72DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
+				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5133037019930ADB00D72DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
+				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5133037219930ADB00D72DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArtWave.app/ArtWave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArtWaveTests/ArtWaveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5133037319930ADB00D72DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArtWave.app/ArtWave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
+				INFOPLIST_FILE = "ArtWaveTests/ArtWaveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5133033719930ADA00D72DBA /* Build configuration list for PBXProject "ArtWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5133036C19930ADB00D72DBA /* Debug */,
+				5133036D19930ADB00D72DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5133036E19930ADB00D72DBA /* Build configuration list for PBXNativeTarget "ArtWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5133036F19930ADB00D72DBA /* Debug */,
+				5133037019930ADB00D72DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5133037119930ADB00D72DBA /* Build configuration list for PBXNativeTarget "ArtWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5133037219930ADB00D72DBA /* Debug */,
+				5133037319930ADB00D72DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5133033419930ADA00D72DBA /* Project object */;
+}
