@@ -14,3 +14,14 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+//设置颜色
+#define ColorRGBA(R,G,B,A)           [UIColor colorWithRed:R / 255.0 green:G / 255.0  blue:B / 255.0  alpha:A]
+#define ColorRGB(R,G,B)              [UIColor colorWithRed:R / 255.0 green:G / 255.0  blue:B / 255.0  alpha:1.0]
+#define Font(m)         [UIFont fontWithName:@"Arial" size:m]
+
+#define iosVersion() [[[UIDevice currentDevice] systemVersion] floatValue]
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define kStatusBarHeight ((iosVersion()>=7.0) ? 0 : 20)
+#define kNaviTitleHeight ((iosVersion()>=7.0) ? 64 : 44)
