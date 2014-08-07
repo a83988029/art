@@ -21,18 +21,6 @@
 		5133036119930ADB00D72DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034319930ADB00D72DBA /* UIKit.framework */; };
 		5133036919930ADB00D72DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5133036719930ADB00D72DBA /* InfoPlist.strings */; };
 		5133036B19930ADB00D72DBA /* ArtWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133036A19930ADB00D72DBA /* ArtWaveTests.m */; };
-		5133052919931BFA00D72DBA /* 1个人中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133039719931BF900D72DBA /* 1个人中心.png */; };
-		5133052A19931BFA00D72DBA /* 2设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133039819931BF900D72DBA /* 2设置.png */; };
-		5133052B19931BFA00D72DBA /* 3新评论.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133039919931BF900D72DBA /* 3新评论.png */; };
-		5133052C19931BFA00D72DBA /* 4新粉丝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133039A19931BF900D72DBA /* 4新粉丝.jpg */; };
-		5133052D19931BFA00D72DBA /* 5新私信-所有私信-编辑.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133039B19931BF900D72DBA /* 5新私信-所有私信-编辑.jpg */; };
-		5133052E19931BFA00D72DBA /* 5新私信-所有私信.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133039C19931BF900D72DBA /* 5新私信-所有私信.png */; };
-		5133052F19931BFA00D72DBA /* 5新私信.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133039D19931BF900D72DBA /* 5新私信.png */; };
-		5133053019931BFA00D72DBA /* 6我的关注.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133039E19931BF900D72DBA /* 6我的关注.jpg */; };
-		5133053119931BFA00D72DBA /* 7添加好友.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133039F19931BF900D72DBA /* 7添加好友.jpg */; };
-		5133053219931BFA00D72DBA /* 8附件的艺术家-查看更多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303A019931BF900D72DBA /* 8附件的艺术家-查看更多.jpg */; };
-		5133053319931BFA00D72DBA /* 8附件的艺术家.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303A119931BF900D72DBA /* 8附件的艺术家.jpg */; };
-		5133053419931BFA00D72DBA /* 9添加履历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303A219931BF900D72DBA /* 9添加履历.jpg */; };
 		5133053519931BFA00D72DBA /* bg_center_notip.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303A319931BF900D72DBA /* bg_center_notip.png */; };
 		5133053619931BFA00D72DBA /* bg_center_setting_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303A419931BF900D72DBA /* bg_center_setting_list.png */; };
 		5133053719931BFA00D72DBA /* bg_center_tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303A519931BF900D72DBA /* bg_center_tips.png */; };
@@ -51,14 +39,6 @@
 		5133054419931BFA00D72DBA /* ico_center_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303B219931BF900D72DBA /* ico_center_x.png */; };
 		5133054519931BFA00D72DBA /* pic_center_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303B319931BF900D72DBA /* pic_center_head.png */; };
 		5133054619931BFA00D72DBA /* pic_center_setting_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303B419931BF900D72DBA /* pic_center_setting_head.png */; };
-		5133056119931BFA00D72DBA /* 1主页-作品-列表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D019931BF900D72DBA /* 1主页-作品-列表.jpg */; };
-		5133056219931BFA00D72DBA /* 1主页-作品-品字.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D119931BF900D72DBA /* 1主页-作品-品字.jpg */; };
-		5133056319931BFA00D72DBA /* 2 主页-履历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D219931BF900D72DBA /* 2 主页-履历.jpg */; };
-		5133056419931BFA00D72DBA /* 3 主页-喜欢.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D319931BF900D72DBA /* 3 主页-喜欢.jpg */; };
-		5133056519931BFA00D72DBA /* 4主页-更多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D419931BF900D72DBA /* 4主页-更多.jpg */; };
-		5133056619931BFA00D72DBA /* 5主页-私信.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D519931BF900D72DBA /* 5主页-私信.jpg */; };
-		5133056719931BFA00D72DBA /* 6我的主页-履历空.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D619931BF900D72DBA /* 6我的主页-履历空.jpg */; };
-		5133056819931BFA00D72DBA /* 6我的主页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303D719931BF900D72DBA /* 6我的主页.jpg */; };
 		5133056919931BFA00D72DBA /* bg_homepage_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303D819931BF900D72DBA /* bg_homepage_head.png */; };
 		5133056A19931BFA00D72DBA /* button_homepage_follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303D919931BF900D72DBA /* button_homepage_follow.png */; };
 		5133056B19931BFA00D72DBA /* button_homepage_followed.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303DA19931BF900D72DBA /* button_homepage_followed.png */; };
@@ -79,10 +59,6 @@
 		5133057A19931BFA00D72DBA /* pic_homepage_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 513303E919931BF900D72DBA /* pic_homepage_head.png */; };
 		5133057B19931BFA00D72DBA /* 交互图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513303EA19931BF900D72DBA /* 交互图.jpg */; };
 		5133057C19931BFA00D72DBA /* 切图备注.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 513303EB19931BF900D72DBA /* 切图备注.pdf */; };
-		5133059219931BFA00D72DBA /* 1发布故事.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133040219931BF900D72DBA /* 1发布故事.jpg */; };
-		5133059319931BFA00D72DBA /* 2发布故事-编辑故事.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133040319931BF900D72DBA /* 2发布故事-编辑故事.jpg */; };
-		5133059419931BFA00D72DBA /* 3发布故事-选择分类.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133040419931BF900D72DBA /* 3发布故事-选择分类.jpg */; };
-		5133059519931BFA00D72DBA /* 4发布故事-添加标签.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133040519931BF900D72DBA /* 4发布故事-添加标签.jpg */; };
 		5133059619931BFA00D72DBA /* ico_uplaod_addphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133040619931BF900D72DBA /* ico_uplaod_addphoto.png */; };
 		5133059719931BFA00D72DBA /* ico_uplaod_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133040719931BF900D72DBA /* ico_uplaod_choose.png */; };
 		5133059819931BFA00D72DBA /* ico_uplaod_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133040819931BF900D72DBA /* ico_uplaod_list.png */; };
@@ -100,12 +76,6 @@
 		513305A419931BFA00D72DBA /* ico_uplaod_tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133041419931BF900D72DBA /* ico_uplaod_tag.png */; };
 		513305A519931BFA00D72DBA /* ico_uplaod_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133041519931BF900D72DBA /* ico_uplaod_video.png */; };
 		513305A619931BFA00D72DBA /* ico_uplaod_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133041619931BF900D72DBA /* ico_uplaod_x.png */; };
-		513305BF19931BFA00D72DBA /* 1发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133043019931BF900D72DBA /* 1发现.jpg */; };
-		513305C019931BFA00D72DBA /* 2搜索.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133043119931BF900D72DBA /* 2搜索.jpg */; };
-		513305C119931BFA00D72DBA /* 3排行.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133043219931BF900D72DBA /* 3排行.png */; };
-		513305C219931BFA00D72DBA /* 4排行-分类.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133043319931BF900D72DBA /* 4排行-分类.jpg */; };
-		513305C319931BFA00D72DBA /* 5咖啡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133043419931BF900D72DBA /* 5咖啡.jpg */; };
-		513305C419931BFA00D72DBA /* 6地图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133043519931BF900D72DBA /* 6地图.jpg */; };
 		513305C519931BFA00D72DBA /* bg_found.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133043619931BF900D72DBA /* bg_found.png */; };
 		513305C619931BFA00D72DBA /* bg_found_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133043719931BF900D72DBA /* bg_found_map.png */; };
 		513305C719931BFA00D72DBA /* bg_found_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133043819931BF900D72DBA /* bg_found_search.png */; };
@@ -134,9 +104,6 @@
 		513305DE19931BFA00D72DBA /* ico_search_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133045019931BF900D72DBA /* ico_search_search.png */; };
 		513305DF19931BFA00D72DBA /* ico_search_滚动条.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133045119931BF900D72DBA /* ico_search_滚动条.png */; };
 		513305E019931BFA00D72DBA /* x_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133045219931BF900D72DBA /* x_search.png */; };
-		513305E919931BFA00D72DBA /* 1注册.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133045C19931BF900D72DBA /* 1注册.jpg */; };
-		513305EA19931BFA00D72DBA /* 2好友推荐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133045D19931BF900D72DBA /* 2好友推荐.jpg */; };
-		513305EB19931BFA00D72DBA /* 3浪潮推荐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133045E19931BF900D72DBA /* 3浪潮推荐.jpg */; };
 		513305EC19931BFA00D72DBA /* bg_sign_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133045F19931BF900D72DBA /* bg_sign_login.png */; };
 		513305ED19931BFA00D72DBA /* butten_found_follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133046019931BF900D72DBA /* butten_found_follow.png */; };
 		513305EE19931BFA00D72DBA /* butten_found_followed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133046119931BF900D72DBA /* butten_found_followed.png */; };
@@ -161,10 +128,6 @@
 		5133061319931BFA00D72DBA /* ico_login_weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133048719931BF900D72DBA /* ico_login_weibo.png */; };
 		5133061419931BFA00D72DBA /* ico_login_weibo_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133048819931BF900D72DBA /* ico_login_weibo_hover.png */; };
 		5133061519931BFA00D72DBA /* 艺术浪潮设计规范(1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133048919931BF900D72DBA /* 艺术浪潮设计规范(1).jpg */; };
-		5133061A19931BFA00D72DBA /* 1定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133048F19931BF900D72DBA /* 1定位.png */; };
-		5133061B19931BFA00D72DBA /* 2未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133049019931BF900D72DBA /* 2未登录.png */; };
-		5133061C19931BFA00D72DBA /* 3首页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133049119931BF900D72DBA /* 3首页.jpg */; };
-		5133061D19931BFA00D72DBA /* 4内容页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133049219931BF900D72DBA /* 4内容页.jpg */; };
 		5133063319931BFA00D72DBA /* bg_content_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304A919931BF900D72DBA /* bg_content_body.png */; };
 		5133063419931BFA00D72DBA /* bg_content_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304AA19931BF900D72DBA /* bg_content_pic.png */; };
 		5133063519931BFA00D72DBA /* bg_content_简介.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304AB19931BF900D72DBA /* bg_content_简介.png */; };
@@ -204,8 +167,6 @@
 		5133066B19931BFA00D72DBA /* ico_home_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E319931BFA00D72DBA /* ico_home_logo.png */; };
 		5133066C19931BFA00D72DBA /* ico_home_定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E419931BFA00D72DBA /* ico_home_定位.png */; };
 		5133066D19931BFA00D72DBA /* word_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E519931BFA00D72DBA /* word_home.png */; };
-		5133066E19931BFA00D72DBA /* 未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E619931BFA00D72DBA /* 未登录.png */; };
-		5133066F19931BFA00D72DBA /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E719931BFA00D72DBA /* 登录.png */; };
 		5133067819931BFA00D72DBA /* bg_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F119931BFA00D72DBA /* bg_tab.png */; };
 		5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F219931BFA00D72DBA /* bg_tab_tip.png */; };
 		5133067A19931BFA00D72DBA /* ico_nav_upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F319931BFA00D72DBA /* ico_nav_upload.png */; };
@@ -222,6 +183,46 @@
 		5133068B19931BFA00D72DBA /* ico_comment_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133050519931BFA00D72DBA /* ico_comment_face.png */; };
 		5133068C19931BFA00D72DBA /* ico_comment_face_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133050619931BFA00D72DBA /* ico_comment_face_hover.png */; };
 		5133068D19931BFA00D72DBA /* ioc_comment_comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133050719931BFA00D72DBA /* ioc_comment_comment.png */; };
+		5133068F19932C2F00D72DBA /* 2登录-input-色彩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133068E19932C2F00D72DBA /* 2登录-input-色彩.jpg */; };
+		5133069419932C9200D72DBA /* 1发布故事.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069019932C9200D72DBA /* 1发布故事.jpg */; };
+		5133069519932C9200D72DBA /* 2发布故事-编辑故事.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069119932C9200D72DBA /* 2发布故事-编辑故事.jpg */; };
+		5133069619932C9200D72DBA /* 3发布故事-选择分类.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069219932C9200D72DBA /* 3发布故事-选择分类.jpg */; };
+		5133069719932C9200D72DBA /* 4发布故事-添加标签.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069319932C9200D72DBA /* 4发布故事-添加标签.jpg */; };
+		5133069E1993321B00D72DBA /* 1发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306981993321B00D72DBA /* 1发现.jpg */; };
+		5133069F1993321B00D72DBA /* 2搜索.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306991993321B00D72DBA /* 2搜索.jpg */; };
+		513306A01993321B00D72DBA /* 3排行.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133069A1993321B00D72DBA /* 3排行.png */; };
+		513306A11993321B00D72DBA /* 4排行-分类.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069B1993321B00D72DBA /* 4排行-分类.jpg */; };
+		513306A21993321B00D72DBA /* 5咖啡.png in Resources */ = {isa = PBXBuildFile; fileRef = 5133069C1993321B00D72DBA /* 5咖啡.png */; };
+		513306A31993321B00D72DBA /* 6地图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5133069D1993321B00D72DBA /* 6地图.jpg */; };
+		513306A71993324F00D72DBA /* 1注册.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306A41993324F00D72DBA /* 1注册.jpg */; };
+		513306A81993324F00D72DBA /* 2好友推荐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306A51993324F00D72DBA /* 2好友推荐.jpg */; };
+		513306A91993324F00D72DBA /* 3浪潮推荐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306A61993324F00D72DBA /* 3浪潮推荐.jpg */; };
+		513306B21993327E00D72DBA /* 1主页-作品-列表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AA1993327E00D72DBA /* 1主页-作品-列表.jpg */; };
+		513306B31993327E00D72DBA /* 1主页-作品-品字.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AB1993327E00D72DBA /* 1主页-作品-品字.jpg */; };
+		513306B41993327E00D72DBA /* 2 主页-履历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AC1993327E00D72DBA /* 2 主页-履历.jpg */; };
+		513306B51993327E00D72DBA /* 3 主页-喜欢.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AD1993327E00D72DBA /* 3 主页-喜欢.jpg */; };
+		513306B61993327E00D72DBA /* 4主页-更多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AE1993327E00D72DBA /* 4主页-更多.jpg */; };
+		513306B71993327E00D72DBA /* 5主页-私信.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306AF1993327E00D72DBA /* 5主页-私信.jpg */; };
+		513306B81993327E00D72DBA /* 6我的主页-履历空.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306B01993327E00D72DBA /* 6我的主页-履历空.jpg */; };
+		513306B91993327E00D72DBA /* 6我的主页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306B11993327E00D72DBA /* 6我的主页.jpg */; };
+		513306C6199332A900D72DBA /* 1个人中心.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306BA199332A900D72DBA /* 1个人中心.jpg */; };
+		513306C7199332A900D72DBA /* 2设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306BB199332A900D72DBA /* 2设置.png */; };
+		513306C8199332A900D72DBA /* 3新评论.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306BC199332A900D72DBA /* 3新评论.png */; };
+		513306C9199332A900D72DBA /* 4新粉丝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306BD199332A900D72DBA /* 4新粉丝.jpg */; };
+		513306CA199332A900D72DBA /* 5新私信-所有私信-编辑.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306BE199332A900D72DBA /* 5新私信-所有私信-编辑.jpg */; };
+		513306CB199332A900D72DBA /* 5新私信-所有私信.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306BF199332A900D72DBA /* 5新私信-所有私信.png */; };
+		513306CC199332A900D72DBA /* 5新私信.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306C0199332A900D72DBA /* 5新私信.png */; };
+		513306CD199332A900D72DBA /* 6我的关注.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306C1199332A900D72DBA /* 6我的关注.jpg */; };
+		513306CE199332A900D72DBA /* 7添加好友.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306C2199332A900D72DBA /* 7添加好友.jpg */; };
+		513306CF199332A900D72DBA /* 8附件的艺术家-查看更多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306C3199332A900D72DBA /* 8附件的艺术家-查看更多.jpg */; };
+		513306D0199332A900D72DBA /* 8附件的艺术家.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306C4199332A900D72DBA /* 8附件的艺术家.jpg */; };
+		513306D1199332A900D72DBA /* 9添加履历.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306C5199332A900D72DBA /* 9添加履历.jpg */; };
+		513306D6199332DC00D72DBA /* 1定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306D2199332DC00D72DBA /* 1定位.png */; };
+		513306D7199332DC00D72DBA /* 2未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306D3199332DC00D72DBA /* 2未登录.png */; };
+		513306D8199332DC00D72DBA /* 3首页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306D4199332DC00D72DBA /* 3首页.jpg */; };
+		513306D9199332DC00D72DBA /* 4内容页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513306D5199332DC00D72DBA /* 4内容页.jpg */; };
+		513306DC199332FE00D72DBA /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306DA199332FE00D72DBA /* 登录.png */; };
+		513306DD199332FE00D72DBA /* 未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 513306DB199332FE00D72DBA /* 未登录.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,18 +255,6 @@
 		5133036619930ADB00D72DBA /* ArtWaveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArtWaveTests-Info.plist"; sourceTree = "<group>"; };
 		5133036819930ADB00D72DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5133036A19930ADB00D72DBA /* ArtWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtWaveTests.m; sourceTree = "<group>"; };
-		5133039719931BF900D72DBA /* 1个人中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1个人中心.png"; sourceTree = "<group>"; };
-		5133039819931BF900D72DBA /* 2设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2设置.png"; sourceTree = "<group>"; };
-		5133039919931BF900D72DBA /* 3新评论.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3新评论.png"; sourceTree = "<group>"; };
-		5133039A19931BF900D72DBA /* 4新粉丝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4新粉丝.jpg"; sourceTree = "<group>"; };
-		5133039B19931BF900D72DBA /* 5新私信-所有私信-编辑.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5新私信-所有私信-编辑.jpg"; sourceTree = "<group>"; };
-		5133039C19931BF900D72DBA /* 5新私信-所有私信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5新私信-所有私信.png"; sourceTree = "<group>"; };
-		5133039D19931BF900D72DBA /* 5新私信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5新私信.png"; sourceTree = "<group>"; };
-		5133039E19931BF900D72DBA /* 6我的关注.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的关注.jpg"; sourceTree = "<group>"; };
-		5133039F19931BF900D72DBA /* 7添加好友.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7添加好友.jpg"; sourceTree = "<group>"; };
-		513303A019931BF900D72DBA /* 8附件的艺术家-查看更多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8附件的艺术家-查看更多.jpg"; sourceTree = "<group>"; };
-		513303A119931BF900D72DBA /* 8附件的艺术家.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8附件的艺术家.jpg"; sourceTree = "<group>"; };
-		513303A219931BF900D72DBA /* 9添加履历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9添加履历.jpg"; sourceTree = "<group>"; };
 		513303A319931BF900D72DBA /* bg_center_notip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_center_notip.png; sourceTree = "<group>"; };
 		513303A419931BF900D72DBA /* bg_center_setting_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_center_setting_list.png; sourceTree = "<group>"; };
 		513303A519931BF900D72DBA /* bg_center_tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_center_tips.png; sourceTree = "<group>"; };
@@ -284,14 +273,6 @@
 		513303B219931BF900D72DBA /* ico_center_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_center_x.png; sourceTree = "<group>"; };
 		513303B319931BF900D72DBA /* pic_center_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_center_head.png; sourceTree = "<group>"; };
 		513303B419931BF900D72DBA /* pic_center_setting_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_center_setting_head.png; sourceTree = "<group>"; };
-		513303D019931BF900D72DBA /* 1主页-作品-列表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1主页-作品-列表.jpg"; sourceTree = "<group>"; };
-		513303D119931BF900D72DBA /* 1主页-作品-品字.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1主页-作品-品字.jpg"; sourceTree = "<group>"; };
-		513303D219931BF900D72DBA /* 2 主页-履历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 主页-履历.jpg"; sourceTree = "<group>"; };
-		513303D319931BF900D72DBA /* 3 主页-喜欢.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 主页-喜欢.jpg"; sourceTree = "<group>"; };
-		513303D419931BF900D72DBA /* 4主页-更多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4主页-更多.jpg"; sourceTree = "<group>"; };
-		513303D519931BF900D72DBA /* 5主页-私信.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5主页-私信.jpg"; sourceTree = "<group>"; };
-		513303D619931BF900D72DBA /* 6我的主页-履历空.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的主页-履历空.jpg"; sourceTree = "<group>"; };
-		513303D719931BF900D72DBA /* 6我的主页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的主页.jpg"; sourceTree = "<group>"; };
 		513303D819931BF900D72DBA /* bg_homepage_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_homepage_head.png; sourceTree = "<group>"; };
 		513303D919931BF900D72DBA /* button_homepage_follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_homepage_follow.png; sourceTree = "<group>"; };
 		513303DA19931BF900D72DBA /* button_homepage_followed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_homepage_followed.png; sourceTree = "<group>"; };
@@ -312,10 +293,6 @@
 		513303E919931BF900D72DBA /* pic_homepage_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_homepage_head.png; sourceTree = "<group>"; };
 		513303EA19931BF900D72DBA /* 交互图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "交互图.jpg"; sourceTree = "<group>"; };
 		513303EB19931BF900D72DBA /* 切图备注.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "切图备注.pdf"; sourceTree = "<group>"; };
-		5133040219931BF900D72DBA /* 1发布故事.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1发布故事.jpg"; sourceTree = "<group>"; };
-		5133040319931BF900D72DBA /* 2发布故事-编辑故事.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2发布故事-编辑故事.jpg"; sourceTree = "<group>"; };
-		5133040419931BF900D72DBA /* 3发布故事-选择分类.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3发布故事-选择分类.jpg"; sourceTree = "<group>"; };
-		5133040519931BF900D72DBA /* 4发布故事-添加标签.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4发布故事-添加标签.jpg"; sourceTree = "<group>"; };
 		5133040619931BF900D72DBA /* ico_uplaod_addphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_addphoto.png; sourceTree = "<group>"; };
 		5133040719931BF900D72DBA /* ico_uplaod_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_choose.png; sourceTree = "<group>"; };
 		5133040819931BF900D72DBA /* ico_uplaod_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_list.png; sourceTree = "<group>"; };
@@ -333,12 +310,6 @@
 		5133041419931BF900D72DBA /* ico_uplaod_tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_tag.png; sourceTree = "<group>"; };
 		5133041519931BF900D72DBA /* ico_uplaod_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_video.png; sourceTree = "<group>"; };
 		5133041619931BF900D72DBA /* ico_uplaod_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_uplaod_x.png; sourceTree = "<group>"; };
-		5133043019931BF900D72DBA /* 1发现.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1发现.jpg"; sourceTree = "<group>"; };
-		5133043119931BF900D72DBA /* 2搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2搜索.jpg"; sourceTree = "<group>"; };
-		5133043219931BF900D72DBA /* 3排行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3排行.png"; sourceTree = "<group>"; };
-		5133043319931BF900D72DBA /* 4排行-分类.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4排行-分类.jpg"; sourceTree = "<group>"; };
-		5133043419931BF900D72DBA /* 5咖啡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5咖啡.jpg"; sourceTree = "<group>"; };
-		5133043519931BF900D72DBA /* 6地图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6地图.jpg"; sourceTree = "<group>"; };
 		5133043619931BF900D72DBA /* bg_found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_found.png; sourceTree = "<group>"; };
 		5133043719931BF900D72DBA /* bg_found_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_found_map.png; sourceTree = "<group>"; };
 		5133043819931BF900D72DBA /* bg_found_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_found_search.png; sourceTree = "<group>"; };
@@ -367,9 +338,6 @@
 		5133045019931BF900D72DBA /* ico_search_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_search_search.png; sourceTree = "<group>"; };
 		5133045119931BF900D72DBA /* ico_search_滚动条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_search_滚动条.png"; sourceTree = "<group>"; };
 		5133045219931BF900D72DBA /* x_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_search.png; sourceTree = "<group>"; };
-		5133045C19931BF900D72DBA /* 1注册.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1注册.jpg"; sourceTree = "<group>"; };
-		5133045D19931BF900D72DBA /* 2好友推荐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2好友推荐.jpg"; sourceTree = "<group>"; };
-		5133045E19931BF900D72DBA /* 3浪潮推荐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3浪潮推荐.jpg"; sourceTree = "<group>"; };
 		5133045F19931BF900D72DBA /* bg_sign_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_sign_login.png; sourceTree = "<group>"; };
 		5133046019931BF900D72DBA /* butten_found_follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butten_found_follow.png; sourceTree = "<group>"; };
 		5133046119931BF900D72DBA /* butten_found_followed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butten_found_followed.png; sourceTree = "<group>"; };
@@ -394,10 +362,6 @@
 		5133048719931BF900D72DBA /* ico_login_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_login_weibo.png; sourceTree = "<group>"; };
 		5133048819931BF900D72DBA /* ico_login_weibo_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_login_weibo_hover.png; sourceTree = "<group>"; };
 		5133048919931BF900D72DBA /* 艺术浪潮设计规范(1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "艺术浪潮设计规范(1).jpg"; sourceTree = "<group>"; };
-		5133048F19931BF900D72DBA /* 1定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1定位.png"; sourceTree = "<group>"; };
-		5133049019931BF900D72DBA /* 2未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2未登录.png"; sourceTree = "<group>"; };
-		5133049119931BF900D72DBA /* 3首页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3首页.jpg"; sourceTree = "<group>"; };
-		5133049219931BF900D72DBA /* 4内容页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4内容页.jpg"; sourceTree = "<group>"; };
 		513304A919931BF900D72DBA /* bg_content_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_content_body.png; sourceTree = "<group>"; };
 		513304AA19931BF900D72DBA /* bg_content_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_content_pic.png; sourceTree = "<group>"; };
 		513304AB19931BF900D72DBA /* bg_content_简介.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_content_简介.png"; sourceTree = "<group>"; };
@@ -437,8 +401,6 @@
 		513304E319931BFA00D72DBA /* ico_home_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_home_logo.png; sourceTree = "<group>"; };
 		513304E419931BFA00D72DBA /* ico_home_定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home_定位.png"; sourceTree = "<group>"; };
 		513304E519931BFA00D72DBA /* word_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_home.png; sourceTree = "<group>"; };
-		513304E619931BFA00D72DBA /* 未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未登录.png"; sourceTree = "<group>"; };
-		513304E719931BFA00D72DBA /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
 		513304F119931BFA00D72DBA /* bg_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tab.png"; sourceTree = "<group>"; };
 		513304F219931BFA00D72DBA /* bg_tab_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tab_tip.png"; sourceTree = "<group>"; };
 		513304F319931BFA00D72DBA /* ico_nav_upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_nav_upload.png; sourceTree = "<group>"; };
@@ -455,6 +417,46 @@
 		5133050519931BFA00D72DBA /* ico_comment_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_comment_face.png; sourceTree = "<group>"; };
 		5133050619931BFA00D72DBA /* ico_comment_face_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_comment_face_hover.png; sourceTree = "<group>"; };
 		5133050719931BFA00D72DBA /* ioc_comment_comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioc_comment_comment.png; sourceTree = "<group>"; };
+		5133068E19932C2F00D72DBA /* 2登录-input-色彩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2登录-input-色彩.jpg"; sourceTree = "<group>"; };
+		5133069019932C9200D72DBA /* 1发布故事.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1发布故事.jpg"; sourceTree = "<group>"; };
+		5133069119932C9200D72DBA /* 2发布故事-编辑故事.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2发布故事-编辑故事.jpg"; sourceTree = "<group>"; };
+		5133069219932C9200D72DBA /* 3发布故事-选择分类.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3发布故事-选择分类.jpg"; sourceTree = "<group>"; };
+		5133069319932C9200D72DBA /* 4发布故事-添加标签.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4发布故事-添加标签.jpg"; sourceTree = "<group>"; };
+		513306981993321B00D72DBA /* 1发现.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1发现.jpg"; sourceTree = "<group>"; };
+		513306991993321B00D72DBA /* 2搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2搜索.jpg"; sourceTree = "<group>"; };
+		5133069A1993321B00D72DBA /* 3排行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3排行.png"; sourceTree = "<group>"; };
+		5133069B1993321B00D72DBA /* 4排行-分类.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4排行-分类.jpg"; sourceTree = "<group>"; };
+		5133069C1993321B00D72DBA /* 5咖啡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5咖啡.png"; sourceTree = "<group>"; };
+		5133069D1993321B00D72DBA /* 6地图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6地图.jpg"; sourceTree = "<group>"; };
+		513306A41993324F00D72DBA /* 1注册.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1注册.jpg"; sourceTree = "<group>"; };
+		513306A51993324F00D72DBA /* 2好友推荐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2好友推荐.jpg"; sourceTree = "<group>"; };
+		513306A61993324F00D72DBA /* 3浪潮推荐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3浪潮推荐.jpg"; sourceTree = "<group>"; };
+		513306AA1993327E00D72DBA /* 1主页-作品-列表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1主页-作品-列表.jpg"; sourceTree = "<group>"; };
+		513306AB1993327E00D72DBA /* 1主页-作品-品字.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1主页-作品-品字.jpg"; sourceTree = "<group>"; };
+		513306AC1993327E00D72DBA /* 2 主页-履历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 主页-履历.jpg"; sourceTree = "<group>"; };
+		513306AD1993327E00D72DBA /* 3 主页-喜欢.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 主页-喜欢.jpg"; sourceTree = "<group>"; };
+		513306AE1993327E00D72DBA /* 4主页-更多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4主页-更多.jpg"; sourceTree = "<group>"; };
+		513306AF1993327E00D72DBA /* 5主页-私信.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5主页-私信.jpg"; sourceTree = "<group>"; };
+		513306B01993327E00D72DBA /* 6我的主页-履历空.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的主页-履历空.jpg"; sourceTree = "<group>"; };
+		513306B11993327E00D72DBA /* 6我的主页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的主页.jpg"; sourceTree = "<group>"; };
+		513306BA199332A900D72DBA /* 1个人中心.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1个人中心.jpg"; sourceTree = "<group>"; };
+		513306BB199332A900D72DBA /* 2设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2设置.png"; sourceTree = "<group>"; };
+		513306BC199332A900D72DBA /* 3新评论.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3新评论.png"; sourceTree = "<group>"; };
+		513306BD199332A900D72DBA /* 4新粉丝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4新粉丝.jpg"; sourceTree = "<group>"; };
+		513306BE199332A900D72DBA /* 5新私信-所有私信-编辑.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5新私信-所有私信-编辑.jpg"; sourceTree = "<group>"; };
+		513306BF199332A900D72DBA /* 5新私信-所有私信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5新私信-所有私信.png"; sourceTree = "<group>"; };
+		513306C0199332A900D72DBA /* 5新私信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5新私信.png"; sourceTree = "<group>"; };
+		513306C1199332A900D72DBA /* 6我的关注.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6我的关注.jpg"; sourceTree = "<group>"; };
+		513306C2199332A900D72DBA /* 7添加好友.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7添加好友.jpg"; sourceTree = "<group>"; };
+		513306C3199332A900D72DBA /* 8附件的艺术家-查看更多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8附件的艺术家-查看更多.jpg"; sourceTree = "<group>"; };
+		513306C4199332A900D72DBA /* 8附件的艺术家.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8附件的艺术家.jpg"; sourceTree = "<group>"; };
+		513306C5199332A900D72DBA /* 9添加履历.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9添加履历.jpg"; sourceTree = "<group>"; };
+		513306D2199332DC00D72DBA /* 1定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1定位.png"; sourceTree = "<group>"; };
+		513306D3199332DC00D72DBA /* 2未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2未登录.png"; sourceTree = "<group>"; };
+		513306D4199332DC00D72DBA /* 3首页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3首页.jpg"; sourceTree = "<group>"; };
+		513306D5199332DC00D72DBA /* 4内容页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4内容页.jpg"; sourceTree = "<group>"; };
+		513306DA199332FE00D72DBA /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		513306DB199332FE00D72DBA /* 未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未登录.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -575,18 +577,18 @@
 		5133037819931BF900D72DBA /* 个人中心-center */ = {
 			isa = PBXGroup;
 			children = (
-				5133039719931BF900D72DBA /* 1个人中心.png */,
-				5133039819931BF900D72DBA /* 2设置.png */,
-				5133039919931BF900D72DBA /* 3新评论.png */,
-				5133039A19931BF900D72DBA /* 4新粉丝.jpg */,
-				5133039B19931BF900D72DBA /* 5新私信-所有私信-编辑.jpg */,
-				5133039C19931BF900D72DBA /* 5新私信-所有私信.png */,
-				5133039D19931BF900D72DBA /* 5新私信.png */,
-				5133039E19931BF900D72DBA /* 6我的关注.jpg */,
-				5133039F19931BF900D72DBA /* 7添加好友.jpg */,
-				513303A019931BF900D72DBA /* 8附件的艺术家-查看更多.jpg */,
-				513303A119931BF900D72DBA /* 8附件的艺术家.jpg */,
-				513303A219931BF900D72DBA /* 9添加履历.jpg */,
+				513306BA199332A900D72DBA /* 1个人中心.jpg */,
+				513306BB199332A900D72DBA /* 2设置.png */,
+				513306BC199332A900D72DBA /* 3新评论.png */,
+				513306BD199332A900D72DBA /* 4新粉丝.jpg */,
+				513306BE199332A900D72DBA /* 5新私信-所有私信-编辑.jpg */,
+				513306BF199332A900D72DBA /* 5新私信-所有私信.png */,
+				513306C0199332A900D72DBA /* 5新私信.png */,
+				513306C1199332A900D72DBA /* 6我的关注.jpg */,
+				513306C2199332A900D72DBA /* 7添加好友.jpg */,
+				513306C3199332A900D72DBA /* 8附件的艺术家-查看更多.jpg */,
+				513306C4199332A900D72DBA /* 8附件的艺术家.jpg */,
+				513306C5199332A900D72DBA /* 9添加履历.jpg */,
 				513303A319931BF900D72DBA /* bg_center_notip.png */,
 				513303A419931BF900D72DBA /* bg_center_setting_list.png */,
 				513303A519931BF900D72DBA /* bg_center_tips.png */,
@@ -612,14 +614,14 @@
 		513303B519931BF900D72DBA /* 个人主页_homepage */ = {
 			isa = PBXGroup;
 			children = (
-				513303D019931BF900D72DBA /* 1主页-作品-列表.jpg */,
-				513303D119931BF900D72DBA /* 1主页-作品-品字.jpg */,
-				513303D219931BF900D72DBA /* 2 主页-履历.jpg */,
-				513303D319931BF900D72DBA /* 3 主页-喜欢.jpg */,
-				513303D419931BF900D72DBA /* 4主页-更多.jpg */,
-				513303D519931BF900D72DBA /* 5主页-私信.jpg */,
-				513303D619931BF900D72DBA /* 6我的主页-履历空.jpg */,
-				513303D719931BF900D72DBA /* 6我的主页.jpg */,
+				513306AA1993327E00D72DBA /* 1主页-作品-列表.jpg */,
+				513306AB1993327E00D72DBA /* 1主页-作品-品字.jpg */,
+				513306AC1993327E00D72DBA /* 2 主页-履历.jpg */,
+				513306AD1993327E00D72DBA /* 3 主页-喜欢.jpg */,
+				513306AE1993327E00D72DBA /* 4主页-更多.jpg */,
+				513306AF1993327E00D72DBA /* 5主页-私信.jpg */,
+				513306B01993327E00D72DBA /* 6我的主页-履历空.jpg */,
+				513306B11993327E00D72DBA /* 6我的主页.jpg */,
 				513303D819931BF900D72DBA /* bg_homepage_head.png */,
 				513303D919931BF900D72DBA /* button_homepage_follow.png */,
 				513303DA19931BF900D72DBA /* button_homepage_followed.png */,
@@ -645,10 +647,10 @@
 		513303EC19931BF900D72DBA /* 发布故事-upload */ = {
 			isa = PBXGroup;
 			children = (
-				5133040219931BF900D72DBA /* 1发布故事.jpg */,
-				5133040319931BF900D72DBA /* 2发布故事-编辑故事.jpg */,
-				5133040419931BF900D72DBA /* 3发布故事-选择分类.jpg */,
-				5133040519931BF900D72DBA /* 4发布故事-添加标签.jpg */,
+				5133069019932C9200D72DBA /* 1发布故事.jpg */,
+				5133069119932C9200D72DBA /* 2发布故事-编辑故事.jpg */,
+				5133069219932C9200D72DBA /* 3发布故事-选择分类.jpg */,
+				5133069319932C9200D72DBA /* 4发布故事-添加标签.jpg */,
 				5133040619931BF900D72DBA /* ico_uplaod_addphoto.png */,
 				5133040719931BF900D72DBA /* ico_uplaod_choose.png */,
 				5133040819931BF900D72DBA /* ico_uplaod_list.png */,
@@ -673,12 +675,12 @@
 		5133041719931BF900D72DBA /* 发现-found */ = {
 			isa = PBXGroup;
 			children = (
-				5133043019931BF900D72DBA /* 1发现.jpg */,
-				5133043119931BF900D72DBA /* 2搜索.jpg */,
-				5133043219931BF900D72DBA /* 3排行.png */,
-				5133043319931BF900D72DBA /* 4排行-分类.jpg */,
-				5133043419931BF900D72DBA /* 5咖啡.jpg */,
-				5133043519931BF900D72DBA /* 6地图.jpg */,
+				513306981993321B00D72DBA /* 1发现.jpg */,
+				513306991993321B00D72DBA /* 2搜索.jpg */,
+				5133069A1993321B00D72DBA /* 3排行.png */,
+				5133069B1993321B00D72DBA /* 4排行-分类.jpg */,
+				5133069C1993321B00D72DBA /* 5咖啡.png */,
+				5133069D1993321B00D72DBA /* 6地图.jpg */,
 				5133043619931BF900D72DBA /* bg_found.png */,
 				5133043719931BF900D72DBA /* bg_found_map.png */,
 				5133043819931BF900D72DBA /* bg_found_search.png */,
@@ -722,9 +724,9 @@
 		5133045319931BF900D72DBA /* 注册-sign */ = {
 			isa = PBXGroup;
 			children = (
-				5133045C19931BF900D72DBA /* 1注册.jpg */,
-				5133045D19931BF900D72DBA /* 2好友推荐.jpg */,
-				5133045E19931BF900D72DBA /* 3浪潮推荐.jpg */,
+				513306A41993324F00D72DBA /* 1注册.jpg */,
+				513306A51993324F00D72DBA /* 2好友推荐.jpg */,
+				513306A61993324F00D72DBA /* 3浪潮推荐.jpg */,
 				5133045F19931BF900D72DBA /* bg_sign_login.png */,
 				5133046019931BF900D72DBA /* butten_found_follow.png */,
 				5133046119931BF900D72DBA /* butten_found_followed.png */,
@@ -737,6 +739,7 @@
 		5133046419931BF900D72DBA /* 登录-login */ = {
 			isa = PBXGroup;
 			children = (
+				5133068E19932C2F00D72DBA /* 2登录-input-色彩.jpg */,
 				5133047719931BF900D72DBA /* 1登录-normal.jpg */,
 				5133047819931BF900D72DBA /* 2登录-input.jpg */,
 				5133047919931BF900D72DBA /* bg_login_input_上.png */,
@@ -762,10 +765,10 @@
 		5133048A19931BF900D72DBA /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				5133048F19931BF900D72DBA /* 1定位.png */,
-				5133049019931BF900D72DBA /* 2未登录.png */,
-				5133049119931BF900D72DBA /* 3首页.jpg */,
-				5133049219931BF900D72DBA /* 4内容页.jpg */,
+				513306D2199332DC00D72DBA /* 1定位.png */,
+				513306D3199332DC00D72DBA /* 2未登录.png */,
+				513306D4199332DC00D72DBA /* 3首页.jpg */,
+				513306D5199332DC00D72DBA /* 4内容页.jpg */,
 				5133049319931BF900D72DBA /* 内容-content */,
 				513304BE19931BF900D72DBA /* 导航栏-nav */,
 				513304CB19931BFA00D72DBA /* 未登录 */,
@@ -819,6 +822,8 @@
 		513304CB19931BFA00D72DBA /* 未登录 */ = {
 			isa = PBXGroup;
 			children = (
+				513306DA199332FE00D72DBA /* 登录.png */,
+				513306DB199332FE00D72DBA /* 未登录.png */,
 				513304DA19931BFA00D72DBA /* bg_home_yuan.png */,
 				513304DB19931BFA00D72DBA /* bg_home_定位.png */,
 				513304DC19931BFA00D72DBA /* butten_home_login.png */,
@@ -831,8 +836,6 @@
 				513304E319931BFA00D72DBA /* ico_home_logo.png */,
 				513304E419931BFA00D72DBA /* ico_home_定位.png */,
 				513304E519931BFA00D72DBA /* word_home.png */,
-				513304E619931BFA00D72DBA /* 未登录.png */,
-				513304E719931BFA00D72DBA /* 登录.png */,
 			);
 			path = "未登录";
 			sourceTree = "<group>";
@@ -943,13 +946,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5133052A19931BFA00D72DBA /* 2设置.png in Resources */,
+				5133069719932C9200D72DBA /* 4发布故事-添加标签.jpg in Resources */,
+				513306A81993324F00D72DBA /* 2好友推荐.jpg in Resources */,
 				5133061319931BFA00D72DBA /* ico_login_weibo.png in Resources */,
-				5133052C19931BFA00D72DBA /* 4新粉丝.jpg in Resources */,
 				5133056E19931BFA00D72DBA /* ico_homepage_fans.png in Resources */,
 				513305A219931BFA00D72DBA /* ico_uplaod_photo8.png in Resources */,
 				5133067F19931BFA00D72DBA /* ico_tab_home_hov.png in Resources */,
-				5133059419931BFA00D72DBA /* 3发布故事-选择分类.jpg in Resources */,
 				5133054019931BFA00D72DBA /* ico_center_near.png in Resources */,
 				5133059919931BFA00D72DBA /* ico_uplaod_photo.png in Resources */,
 				5133057019931BFA00D72DBA /* ico_homepage_love.png in Resources */,
@@ -957,11 +959,12 @@
 				5133056919931BFA00D72DBA /* bg_homepage_head.png in Resources */,
 				5133063419931BFA00D72DBA /* bg_content_pic.png in Resources */,
 				5133059B19931BFA00D72DBA /* ico_uplaod_photo1.png in Resources */,
+				513306CF199332A900D72DBA /* 8附件的艺术家-查看更多.jpg in Resources */,
 				5133054619931BFA00D72DBA /* pic_center_setting_head.png in Resources */,
 				5133064F19931BFA00D72DBA /* ico_nav_back.png in Resources */,
-				5133059219931BFA00D72DBA /* 1发布故事.jpg in Resources */,
-				5133056219931BFA00D72DBA /* 1主页-作品-品字.jpg in Resources */,
 				5133057319931BFA00D72DBA /* ico_homepage_position.png in Resources */,
+				513306A71993324F00D72DBA /* 1注册.jpg in Resources */,
+				513306A21993321B00D72DBA /* 5咖啡.png in Resources */,
 				513305EF19931BFA00D72DBA /* ico_sign_x.png in Resources */,
 				5133067B19931BFA00D72DBA /* ico_tab_center_hov.png in Resources */,
 				513305D119931BFA00D72DBA /* ico_found_我的位置.png in Resources */,
@@ -969,15 +972,14 @@
 				5133061019931BFA00D72DBA /* ico_login_qq_hover.png in Resources */,
 				5133060C19931BFA00D72DBA /* ico_login_logo.png in Resources */,
 				5133056C19931BFA00D72DBA /* button_homepage_uplaod.png in Resources */,
-				5133056419931BFA00D72DBA /* 3 主页-喜欢.jpg in Resources */,
-				5133061A19931BFA00D72DBA /* 1定位.png in Resources */,
 				513305CE19931BFA00D72DBA /* ico_found_coffe.png in Resources */,
 				5133056D19931BFA00D72DBA /* ico_homepage_addresume.png in Resources */,
 				5133059E19931BFA00D72DBA /* ico_uplaod_photo4.png in Resources */,
 				5133061419931BFA00D72DBA /* ico_login_weibo_hover.png in Resources */,
-				5133056319931BFA00D72DBA /* 2 主页-履历.jpg in Resources */,
 				5133059619931BFA00D72DBA /* ico_uplaod_addphoto.png in Resources */,
 				5133059819931BFA00D72DBA /* ico_uplaod_list.png in Resources */,
+				513306A31993321B00D72DBA /* 6地图.jpg in Resources */,
+				513306D7199332DC00D72DBA /* 2未登录.png in Resources */,
 				5133061119931BFA00D72DBA /* ico_login_renren.png in Resources */,
 				5133060819931BFA00D72DBA /* bg_login_login_hover.png in Resources */,
 				5133063C19931BFA00D72DBA /* ico_content_more_man.png in Resources */,
@@ -986,166 +988,168 @@
 				5133067A19931BFA00D72DBA /* ico_nav_upload.png in Resources */,
 				5133066B19931BFA00D72DBA /* ico_home_logo.png in Resources */,
 				5133054519931BFA00D72DBA /* pic_center_head.png in Resources */,
-				5133056719931BFA00D72DBA /* 6我的主页-履历空.jpg in Resources */,
 				513305A519931BFA00D72DBA /* ico_uplaod_video.png in Resources */,
+				513306CB199332A900D72DBA /* 5新私信-所有私信.png in Resources */,
 				5133054319931BFA00D72DBA /* ico_center_weixin.png in Resources */,
 				5133057B19931BFA00D72DBA /* 交互图.jpg in Resources */,
-				5133056619931BFA00D72DBA /* 5主页-私信.jpg in Resources */,
-				5133066F19931BFA00D72DBA /* 登录.png in Resources */,
 				5133066A19931BFA00D72DBA /* ico_home_down.png in Resources */,
 				513305D619931BFA00D72DBA /* pic_found_默认图像.png in Resources */,
-				513305EB19931BFA00D72DBA /* 3浪潮推荐.jpg in Resources */,
 				513305DC19931BFA00D72DBA /* bg_search.png in Resources */,
 				5133064619931BFA00D72DBA /* ioc_content_share.png in Resources */,
+				513306D6199332DC00D72DBA /* 1定位.png in Resources */,
+				513306CE199332A900D72DBA /* 7添加好友.jpg in Resources */,
 				5133065319931BFA00D72DBA /* ico_nav_next.png in Resources */,
 				5133066819931BFA00D72DBA /* butten_home_定位.png in Resources */,
-				513305C019931BFA00D72DBA /* 2搜索.jpg in Resources */,
 				5133066319931BFA00D72DBA /* bg_home_定位.png in Resources */,
-				5133061D19931BFA00D72DBA /* 4内容页.jpg in Resources */,
 				5133053819931BFA00D72DBA /* butten_ceter_allfollow.png in Resources */,
 				513305CC19931BFA00D72DBA /* butten_found_lovelist.png in Resources */,
 				5133035819930ADB00D72DBA /* Images.xcassets in Resources */,
 				513305DE19931BFA00D72DBA /* ico_search_search.png in Resources */,
 				5133060F19931BFA00D72DBA /* ico_login_qq.png in Resources */,
 				5133056B19931BFA00D72DBA /* button_homepage_followed.png in Resources */,
-				5133053019931BFA00D72DBA /* 6我的关注.jpg in Resources */,
 				513305C619931BFA00D72DBA /* bg_found_map.png in Resources */,
-				5133061C19931BFA00D72DBA /* 3首页.jpg in Resources */,
 				5133057419931BFA00D72DBA /* ico_homepage_resume.png in Resources */,
 				5133068B19931BFA00D72DBA /* ico_comment_face.png in Resources */,
 				5133059A19931BFA00D72DBA /* ico_uplaod_photo0.png in Resources */,
 				513305EE19931BFA00D72DBA /* butten_found_followed.png in Resources */,
-				5133056519931BFA00D72DBA /* 4主页-更多.jpg in Resources */,
+				513306B61993327E00D72DBA /* 4主页-更多.jpg in Resources */,
 				513305C919931BFA00D72DBA /* butten_found_artmap.png in Resources */,
 				513305E019931BFA00D72DBA /* x_search.png in Resources */,
+				513306CD199332A900D72DBA /* 6我的关注.jpg in Resources */,
 				5133057219931BFA00D72DBA /* ico_homepage_more_mail.png in Resources */,
 				513305D419931BFA00D72DBA /* ico_found_海报tab_hover.png in Resources */,
 				5133060E19931BFA00D72DBA /* ico_login_password.png in Resources */,
+				513306DC199332FE00D72DBA /* 登录.png in Resources */,
 				513305CA19931BFA00D72DBA /* butten_found_follow.png in Resources */,
 				5133063819931BFA00D72DBA /* ico_coment_来访_更多.png in Resources */,
 				5133065219931BFA00D72DBA /* ico_nav_more.png in Resources */,
 				5133063719931BFA00D72DBA /* bg_pic.png in Resources */,
 				5133068119931BFA00D72DBA /* ico_tab_logo.png in Resources */,
-				513305C419931BFA00D72DBA /* 6地图.jpg in Resources */,
 				5133056F19931BFA00D72DBA /* ico_homepage_follows.png in Resources */,
 				5133061219931BFA00D72DBA /* ico_login_renren_hover.png in Resources */,
 				5133066719931BFA00D72DBA /* butten_home_sign_hover.png in Resources */,
 				5133066219931BFA00D72DBA /* bg_home_yuan.png in Resources */,
-				5133052919931BFA00D72DBA /* 1个人中心.png in Resources */,
 				5133057519931BFA00D72DBA /* ico_homepage_resume_hover.png in Resources */,
+				513306C6199332A900D72DBA /* 1个人中心.jpg in Resources */,
 				5133034A19930ADB00D72DBA /* InfoPlist.strings in Resources */,
 				5133066D19931BFA00D72DBA /* word_home.png in Resources */,
-				5133053119931BFA00D72DBA /* 7添加好友.jpg in Resources */,
+				513306C8199332A900D72DBA /* 3新评论.png in Resources */,
 				5133067819931BFA00D72DBA /* bg_tab.png in Resources */,
 				513305A019931BFA00D72DBA /* ico_uplaod_photo6.png in Resources */,
 				5133066419931BFA00D72DBA /* butten_home_login.png in Resources */,
 				5133065119931BFA00D72DBA /* ico_nav_mail.png in Resources */,
-				513305BF19931BFA00D72DBA /* 1发现.jpg in Resources */,
 				5133063F19931BFA00D72DBA /* ico_content_share_douban.png in Resources */,
+				513306B81993327E00D72DBA /* 6我的主页-履历空.jpg in Resources */,
 				5133035319930ADB00D72DBA /* Main.storyboard in Resources */,
 				513305C519931BFA00D72DBA /* bg_found.png in Resources */,
+				513306D8199332DC00D72DBA /* 3首页.jpg in Resources */,
 				5133066919931BFA00D72DBA /* ico_home_artist.png in Resources */,
 				5133064519931BFA00D72DBA /* ioc_content_love_normal.png in Resources */,
+				5133069419932C9200D72DBA /* 1发布故事.jpg in Resources */,
+				513306C9199332A900D72DBA /* 4新粉丝.jpg in Resources */,
 				5133054219931BFA00D72DBA /* ico_center_setting.png in Resources */,
 				5133064719931BFA00D72DBA /* pic_content_head.png in Resources */,
+				5133069F1993321B00D72DBA /* 2搜索.jpg in Resources */,
 				513305D819931BFA00D72DBA /* ._ico_search_next.png in Resources */,
 				513305CB19931BFA00D72DBA /* butten_found_followed.png in Resources */,
 				5133053519931BFA00D72DBA /* bg_center_notip.png in Resources */,
 				5133060619931BFA00D72DBA /* bg_login_input_下.png in Resources */,
+				513306B91993327E00D72DBA /* 6我的主页.jpg in Resources */,
+				513306CC199332A900D72DBA /* 5新私信.png in Resources */,
 				513305D019931BFA00D72DBA /* ico_found_search.png in Resources */,
 				513305EC19931BFA00D72DBA /* bg_sign_login.png in Resources */,
 				5133063D19931BFA00D72DBA /* ico_content_more_report.png in Resources */,
 				5133053919931BFA00D72DBA /* ico_center_addfirends.png in Resources */,
 				5133061519931BFA00D72DBA /* 艺术浪潮设计规范(1).jpg in Resources */,
 				5133053719931BFA00D72DBA /* bg_center_tips.png in Resources */,
-				5133052E19931BFA00D72DBA /* 5新私信-所有私信.png in Resources */,
-				513305E919931BFA00D72DBA /* 1注册.jpg in Resources */,
-				5133052D19931BFA00D72DBA /* 5新私信-所有私信-编辑.jpg in Resources */,
 				5133063519931BFA00D72DBA /* bg_content_简介.png in Resources */,
 				513305A319931BFA00D72DBA /* ico_uplaod_photo9.png in Resources */,
 				5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */,
 				5133060919931BFA00D72DBA /* ico_login_back.png in Resources */,
+				513306B51993327E00D72DBA /* 3 主页-喜欢.jpg in Resources */,
 				5133057119931BFA00D72DBA /* ico_homepage_love_hover.png in Resources */,
+				5133069E1993321B00D72DBA /* 1发现.jpg in Resources */,
 				5133068D19931BFA00D72DBA /* ioc_comment_comment.png in Resources */,
 				5133063B19931BFA00D72DBA /* ico_content_more_mail.png in Resources */,
 				513305DA19931BFA00D72DBA /* ._ico_search_滚动条.png in Resources */,
 				5133067C19931BFA00D72DBA /* ico_tab_center_nor.png in Resources */,
-				5133052F19931BFA00D72DBA /* 5新私信.png in Resources */,
-				5133056819931BFA00D72DBA /* 6我的主页.jpg in Resources */,
 				5133068019931BFA00D72DBA /* ico_tab_home_nor.png in Resources */,
 				5133060519931BFA00D72DBA /* bg_login_input_上.png in Resources */,
 				5133067E19931BFA00D72DBA /* ico_tab_found_nor.png in Resources */,
-				513305C319931BFA00D72DBA /* 5咖啡.jpg in Resources */,
+				513306A11993321B00D72DBA /* 4排行-分类.jpg in Resources */,
+				513306D9199332DC00D72DBA /* 4内容页.jpg in Resources */,
+				513306B31993327E00D72DBA /* 1主页-作品-品字.jpg in Resources */,
 				5133053F19931BFA00D72DBA /* ico_center_maillist.png in Resources */,
-				5133059319931BFA00D72DBA /* 2发布故事-编辑故事.jpg in Resources */,
 				513305F019931BFA00D72DBA /* ico_sign_全部关注.png in Resources */,
 				5133059C19931BFA00D72DBA /* ico_uplaod_photo2.png in Resources */,
-				5133053319931BFA00D72DBA /* 8附件的艺术家.jpg in Resources */,
+				513306D1199332A900D72DBA /* 9添加履历.jpg in Resources */,
+				513306D0199332A900D72DBA /* 8附件的艺术家.jpg in Resources */,
+				5133069619932C9200D72DBA /* 3发布故事-选择分类.jpg in Resources */,
 				5133060A19931BFA00D72DBA /* ico_login_douban.png in Resources */,
 				513305D919931BFA00D72DBA /* ._ico_search_search.png in Resources */,
-				5133053419931BFA00D72DBA /* 9添加履历.jpg in Resources */,
 				513305D219931BFA00D72DBA /* ico_found_推荐机构.png in Resources */,
 				5133068819931BFA00D72DBA /* bg_comment_Inputbox.png in Resources */,
 				5133064119931BFA00D72DBA /* ico_content_share_weibo.png in Resources */,
 				513305C819931BFA00D72DBA /* bg_found_海报.png in Resources */,
 				5133063919931BFA00D72DBA /* ico_content_more_all.png in Resources */,
+				513306A91993324F00D72DBA /* 3浪潮推荐.jpg in Resources */,
 				5133064219931BFA00D72DBA /* ico_content_share_weixin.png in Resources */,
 				5133053D19931BFA00D72DBA /* ico_center_love.png in Resources */,
 				5133053E19931BFA00D72DBA /* ico_center_mail.png in Resources */,
+				513306CA199332A900D72DBA /* 5新私信-所有私信-编辑.jpg in Resources */,
+				5133069519932C9200D72DBA /* 2发布故事-编辑故事.jpg in Resources */,
+				513306C7199332A900D72DBA /* 2设置.png in Resources */,
 				513305D519931BFA00D72DBA /* ico_found_目标位置.png in Resources */,
-				5133059519931BFA00D72DBA /* 4发布故事-添加标签.jpg in Resources */,
 				5133057619931BFA00D72DBA /* ico_homepage_works.png in Resources */,
 				5133064319931BFA00D72DBA /* ioc_content_comment.psd in Resources */,
 				513305DB19931BFA00D72DBA /* ._x_search.png in Resources */,
+				513306B21993327E00D72DBA /* 1主页-作品-列表.jpg in Resources */,
 				5133059719931BFA00D72DBA /* ico_uplaod_choose.png in Resources */,
-				5133056119931BFA00D72DBA /* 1主页-作品-列表.jpg in Resources */,
 				513305CF19931BFA00D72DBA /* ico_found_more.png in Resources */,
 				513305DD19931BFA00D72DBA /* ico_search_next.png in Resources */,
 				5133066C19931BFA00D72DBA /* ico_home_定位.png in Resources */,
-				513305EA19931BFA00D72DBA /* 2好友推荐.jpg in Resources */,
 				513305DF19931BFA00D72DBA /* ico_search_滚动条.png in Resources */,
+				513306B41993327E00D72DBA /* 2 主页-履历.jpg in Resources */,
 				5133065019931BFA00D72DBA /* ico_nav_love.png in Resources */,
 				5133068C19931BFA00D72DBA /* ico_comment_face_hover.png in Resources */,
 				5133054119931BFA00D72DBA /* ico_center_next.png in Resources */,
 				5133054419931BFA00D72DBA /* ico_center_x.png in Resources */,
 				5133053A19931BFA00D72DBA /* ico_center_comment.png in Resources */,
 				5133057819931BFA00D72DBA /* ico_homepage_works1_hover.png in Resources */,
-				5133061B19931BFA00D72DBA /* 2未登录.png in Resources */,
 				5133060419931BFA00D72DBA /* 2登录-input.jpg in Resources */,
 				5133068919931BFA00D72DBA /* botten_comment_sent.png in Resources */,
 				513305C719931BFA00D72DBA /* bg_found_search.png in Resources */,
 				513305A619931BFA00D72DBA /* ico_uplaod_x.png in Resources */,
 				5133053619931BFA00D72DBA /* bg_center_setting_list.png in Resources */,
+				513306A01993321B00D72DBA /* 3排行.png in Resources */,
 				5133063E19931BFA00D72DBA /* ico_content_more_woman.png in Resources */,
 				5133059D19931BFA00D72DBA /* ico_uplaod_photo3.png in Resources */,
 				5133059F19931BFA00D72DBA /* ico_uplaod_photo5.png in Resources */,
 				5133063619931BFA00D72DBA /* bg_content_评论.png in Resources */,
 				5133053C19931BFA00D72DBA /* ico_center_follows.png in Resources */,
 				5133060319931BFA00D72DBA /* 1登录-normal.jpg in Resources */,
-				513305C219931BFA00D72DBA /* 4排行-分类.jpg in Resources */,
 				5133066519931BFA00D72DBA /* butten_home_login_hover.png in Resources */,
-				5133052B19931BFA00D72DBA /* 3新评论.png in Resources */,
 				5133060D19931BFA00D72DBA /* ico_login_name.png in Resources */,
 				5133057719931BFA00D72DBA /* ico_homepage_works1.png in Resources */,
 				513305D319931BFA00D72DBA /* ico_found_海报tab.png in Resources */,
-				513305C119931BFA00D72DBA /* 3排行.png in Resources */,
+				513306DD199332FE00D72DBA /* 未登录.png in Resources */,
 				5133060719931BFA00D72DBA /* bg_login_login.png in Resources */,
 				5133067D19931BFA00D72DBA /* ico_tab_found_hov.png in Resources */,
 				513305ED19931BFA00D72DBA /* butten_found_follow.png in Resources */,
 				5133064019931BFA00D72DBA /* ico_content_share_renren.png in Resources */,
-				5133066E19931BFA00D72DBA /* 未登录.png in Resources */,
 				5133064E19931BFA00D72DBA /* bg_nav_投影.png in Resources */,
 				5133057919931BFA00D72DBA /* ico_homepage_works_hover.png in Resources */,
-				5133053219931BFA00D72DBA /* 8附件的艺术家-查看更多.jpg in Resources */,
 				5133057C19931BFA00D72DBA /* 切图备注.pdf in Resources */,
 				513305D719931BFA00D72DBA /* ._bg_search.png in Resources */,
 				513305CD19931BFA00D72DBA /* ico_found_choose.png in Resources */,
 				5133066619931BFA00D72DBA /* butten_home_sign.png in Resources */,
 				5133060B19931BFA00D72DBA /* ico_login_douban_hover.png in Resources */,
+				5133068F19932C2F00D72DBA /* 2登录-input-色彩.jpg in Resources */,
 				5133064419931BFA00D72DBA /* ioc_content_love_hover.png in Resources */,
 				5133063319931BFA00D72DBA /* bg_content_body.png in Resources */,
 				5133063A19931BFA00D72DBA /* ico_content_more_backhome.png in Resources */,
 				5133053B19931BFA00D72DBA /* ico_center_fans.png in Resources */,
+				513306B71993327E00D72DBA /* 5主页-私信.jpg in Resources */,
 				513305A419931BFA00D72DBA /* ico_uplaod_tag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
