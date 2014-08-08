@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512CC3CF199379A200E0BDBA /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 512CC3CE199379A200E0BDBA /* CommonUtil.m */; };
+		512CC4891994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */; };
+		512CC48A1994769300E0BDBA /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC4881994769300E0BDBA /* TencentOpenAPI.framework */; };
 		5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133033F19930ADA00D72DBA /* Foundation.framework */; };
 		5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034119930ADB00D72DBA /* CoreGraphics.framework */; };
 		5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034319930ADB00D72DBA /* UIKit.framework */; };
@@ -262,6 +265,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512CC3CD199379A200E0BDBA /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		512CC3CE199379A200E0BDBA /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		512CC4881994769300E0BDBA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		5133033C19930ADA00D72DBA /* ArtWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5133033F19930ADA00D72DBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5133034119930ADB00D72DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -521,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */,
+				512CC48A1994769300E0BDBA /* TencentOpenAPI.framework in Frameworks */,
 				5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */,
 				5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */,
 			);
@@ -539,6 +547,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		512CC3CB199378FE00E0BDBA /* OtherLibs */ = {
+			isa = PBXGroup;
+			children = (
+				512CC486199475FF00E0BDBA /* QQ-SDK */,
+				512CC3CC1993797900E0BDBA /* Utils */,
+				513306DF1993549000D72DBA /* IntroducePages */,
+			);
+			name = OtherLibs;
+			sourceTree = "<group>";
+		};
+		512CC3CC1993797900E0BDBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				512CC3CD199379A200E0BDBA /* CommonUtil.h */,
+				512CC3CE199379A200E0BDBA /* CommonUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		512CC486199475FF00E0BDBA /* QQ-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */,
+				512CC4881994769300E0BDBA /* TencentOpenAPI.framework */,
+			);
+			name = "QQ-SDK";
+			sourceTree = "<group>";
+		};
 		5133033319930ADA00D72DBA = {
 			isa = PBXGroup;
 			children = (
@@ -572,14 +608,14 @@
 		5133034519930ADB00D72DBA /* ArtWave */ = {
 			isa = PBXGroup;
 			children = (
-				513306DE1993531A00D72DBA /* views */,
 				5133034E19930ADB00D72DBA /* AppDelegate.h */,
 				5133034F19930ADB00D72DBA /* AppDelegate.m */,
 				5133035119930ADB00D72DBA /* Main.storyboard */,
 				5133035419930ADB00D72DBA /* ViewController.h */,
 				5133035519930ADB00D72DBA /* ViewController.m */,
-				5133035719930ADB00D72DBA /* Images.xcassets */,
+				513306DE1993531A00D72DBA /* views */,
 				5133037419931BF900D72DBA /* images */,
+				512CC3CB199378FE00E0BDBA /* OtherLibs */,
 				5133034619930ADB00D72DBA /* Supporting Files */,
 			);
 			path = ArtWave;
@@ -594,6 +630,7 @@
 				5133034819930ADB00D72DBA /* InfoPlist.strings */,
 				5133034B19930ADB00D72DBA /* main.m */,
 				5133034D19930ADB00D72DBA /* ArtWave-Prefix.pch */,
+				5133035719930ADB00D72DBA /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -934,7 +971,6 @@
 		513306DE1993531A00D72DBA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				513306DF1993549000D72DBA /* IntroducePages */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -1133,6 +1169,7 @@
 				5133054519931BFA00D72DBA /* pic_center_head.png in Resources */,
 				513305A519931BFA00D72DBA /* ico_uplaod_video.png in Resources */,
 				513306CB199332A900D72DBA /* 5新私信-所有私信.png in Resources */,
+				512CC4891994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				5133054319931BFA00D72DBA /* ico_center_weixin.png in Resources */,
 				5133057B19931BFA00D72DBA /* 交互图.jpg in Resources */,
 				5133066A19931BFA00D72DBA /* ico_home_down.png in Resources */,
@@ -1336,6 +1373,7 @@
 				513306E8199354A800D72DBA /* MYBlurIntroductionView.m in Sources */,
 				5133035019930ADB00D72DBA /* AppDelegate.m in Sources */,
 				5133034C19930ADB00D72DBA /* main.m in Sources */,
+				512CC3CF199379A200E0BDBA /* CommonUtil.m in Sources */,
 				5133070C19935E6700D72DBA /* MYCustomPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1462,6 +1500,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArtWave",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
@@ -1477,6 +1519,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArtWave",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";

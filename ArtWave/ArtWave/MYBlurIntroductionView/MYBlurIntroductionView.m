@@ -92,7 +92,8 @@
 }
 
 -(void)initializeConstants{
-    kBlurTintColor = [UIColor colorWithRed:90.0f/255.0f green:175.0f/255.0f blue:113.0f/255.0f alpha:1];
+//    kBlurTintColor = [UIColor colorWithRed:90.0f/255.0f green:175.0f/255.0f blue:113.0f/255.0f alpha:1];
+    kBlurTintColor = ColorRGB(237, 239, 243);
 }
 
 //Adds the blur view just below the master scroll view for a blurred background look
