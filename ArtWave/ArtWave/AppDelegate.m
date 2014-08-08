@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TencentOpenAPI.framework/Headers/TencentOpenSDK.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,14 @@
 {
     // Override point for customization after application launch.
     return YES;
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [TencentOAuth HandleOpenURL:url];
+}
+
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    return [TencentOAuth HandleOpenURL:url];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

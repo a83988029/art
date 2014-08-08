@@ -10,6 +10,13 @@
 		512CC3CF199379A200E0BDBA /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 512CC3CE199379A200E0BDBA /* CommonUtil.m */; };
 		512CC4891994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */; };
 		512CC48A1994769300E0BDBA /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC4881994769300E0BDBA /* TencentOpenAPI.framework */; };
+		512CC48C1994775D00E0BDBA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC48B1994775D00E0BDBA /* Security.framework */; };
+		512CC48E1994776700E0BDBA /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC48D1994776700E0BDBA /* libiconv.dylib */; };
+		512CC4901994777000E0BDBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC48F1994777000E0BDBA /* SystemConfiguration.framework */; };
+		512CC492199477BA00E0BDBA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC491199477BA00E0BDBA /* libsqlite3.dylib */; };
+		512CC494199477C100E0BDBA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC493199477C100E0BDBA /* CoreTelephony.framework */; };
+		512CC496199477CC00E0BDBA /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC495199477CC00E0BDBA /* libstdc++.dylib */; };
+		512CC498199477D200E0BDBA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 512CC497199477D200E0BDBA /* libz.dylib */; };
 		5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133033F19930ADA00D72DBA /* Foundation.framework */; };
 		5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034119930ADB00D72DBA /* CoreGraphics.framework */; };
 		5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5133034319930ADB00D72DBA /* UIKit.framework */; };
@@ -170,8 +177,8 @@
 		5133066B19931BFA00D72DBA /* ico_home_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E319931BFA00D72DBA /* ico_home_logo.png */; };
 		5133066C19931BFA00D72DBA /* ico_home_定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E419931BFA00D72DBA /* ico_home_定位.png */; };
 		5133066D19931BFA00D72DBA /* word_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304E519931BFA00D72DBA /* word_home.png */; };
-		5133067819931BFA00D72DBA /* bg_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F119931BFA00D72DBA /* bg_tab.png */; };
-		5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F219931BFA00D72DBA /* bg_tab_tip.png */; };
+		5133067819931BFA00D72DBA /* bg_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F119931BFA00D72DBA /* bg_tab.png */; };
+		5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F219931BFA00D72DBA /* bg_tab_tip.png */; };
 		5133067A19931BFA00D72DBA /* ico_nav_upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F319931BFA00D72DBA /* ico_nav_upload.png */; };
 		5133067B19931BFA00D72DBA /* ico_tab_center_hov.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F419931BFA00D72DBA /* ico_tab_center_hov.png */; };
 		5133067C19931BFA00D72DBA /* ico_tab_center_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 513304F519931BFA00D72DBA /* ico_tab_center_nor.png */; };
@@ -269,6 +276,13 @@
 		512CC3CE199379A200E0BDBA /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
 		512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		512CC4881994769300E0BDBA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		512CC48B1994775D00E0BDBA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		512CC48D1994776700E0BDBA /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		512CC48F1994777000E0BDBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		512CC491199477BA00E0BDBA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		512CC493199477C100E0BDBA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		512CC495199477CC00E0BDBA /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		512CC497199477D200E0BDBA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5133033C19930ADA00D72DBA /* ArtWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5133033F19930ADA00D72DBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5133034119930ADB00D72DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -434,8 +448,8 @@
 		513304E319931BFA00D72DBA /* ico_home_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_home_logo.png; sourceTree = "<group>"; };
 		513304E419931BFA00D72DBA /* ico_home_定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home_定位.png"; sourceTree = "<group>"; };
 		513304E519931BFA00D72DBA /* word_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_home.png; sourceTree = "<group>"; };
-		513304F119931BFA00D72DBA /* bg_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tab.png"; sourceTree = "<group>"; };
-		513304F219931BFA00D72DBA /* bg_tab_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tab_tip.png"; sourceTree = "<group>"; };
+		513304F119931BFA00D72DBA /* bg_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tab.png; sourceTree = "<group>"; };
+		513304F219931BFA00D72DBA /* bg_tab_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tab_tip.png; sourceTree = "<group>"; };
 		513304F319931BFA00D72DBA /* ico_nav_upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_nav_upload.png; sourceTree = "<group>"; };
 		513304F419931BFA00D72DBA /* ico_tab_center_hov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_tab_center_hov.png; sourceTree = "<group>"; };
 		513304F519931BFA00D72DBA /* ico_tab_center_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_tab_center_nor.png; sourceTree = "<group>"; };
@@ -527,7 +541,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512CC498199477D200E0BDBA /* libz.dylib in Frameworks */,
+				512CC496199477CC00E0BDBA /* libstdc++.dylib in Frameworks */,
+				512CC494199477C100E0BDBA /* CoreTelephony.framework in Frameworks */,
+				512CC492199477BA00E0BDBA /* libsqlite3.dylib in Frameworks */,
 				5133034219930ADB00D72DBA /* CoreGraphics.framework in Frameworks */,
+				512CC4901994777000E0BDBA /* SystemConfiguration.framework in Frameworks */,
+				512CC48E1994776700E0BDBA /* libiconv.dylib in Frameworks */,
+				512CC48C1994775D00E0BDBA /* Security.framework in Frameworks */,
 				512CC48A1994769300E0BDBA /* TencentOpenAPI.framework in Frameworks */,
 				5133034419930ADB00D72DBA /* UIKit.framework in Frameworks */,
 				5133034019930ADA00D72DBA /* Foundation.framework in Frameworks */,
@@ -597,6 +618,13 @@
 		5133033E19930ADA00D72DBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				512CC497199477D200E0BDBA /* libz.dylib */,
+				512CC495199477CC00E0BDBA /* libstdc++.dylib */,
+				512CC493199477C100E0BDBA /* CoreTelephony.framework */,
+				512CC491199477BA00E0BDBA /* libsqlite3.dylib */,
+				512CC48F1994777000E0BDBA /* SystemConfiguration.framework */,
+				512CC48D1994776700E0BDBA /* libiconv.dylib */,
+				512CC48B1994775D00E0BDBA /* Security.framework */,
 				5133033F19930ADA00D72DBA /* Foundation.framework */,
 				5133034119930ADB00D72DBA /* CoreGraphics.framework */,
 				5133034319930ADB00D72DBA /* UIKit.framework */,
@@ -941,8 +969,8 @@
 		513304E819931BFA00D72DBA /* 标签栏-tab */ = {
 			isa = PBXGroup;
 			children = (
-				513304F119931BFA00D72DBA /* bg_tab.png */,
-				513304F219931BFA00D72DBA /* bg_tab_tip.png */,
+				513304F119931BFA00D72DBA /* bg_tab.png */,
+				513304F219931BFA00D72DBA /* bg_tab_tip.png */,
 				513304F319931BFA00D72DBA /* ico_nav_upload.png */,
 				513304F419931BFA00D72DBA /* ico_tab_center_hov.png */,
 				513304F519931BFA00D72DBA /* ico_tab_center_nor.png */,
@@ -1220,7 +1248,7 @@
 				5133034A19930ADB00D72DBA /* InfoPlist.strings in Resources */,
 				5133066D19931BFA00D72DBA /* word_home.png in Resources */,
 				513306C8199332A900D72DBA /* 3新评论.png in Resources */,
-				5133067819931BFA00D72DBA /* bg_tab.png in Resources */,
+				5133067819931BFA00D72DBA /* bg_tab.png in Resources */,
 				513305A019931BFA00D72DBA /* ico_uplaod_photo6.png in Resources */,
 				5133066419931BFA00D72DBA /* butten_home_login.png in Resources */,
 				5133065119931BFA00D72DBA /* ico_nav_mail.png in Resources */,
@@ -1253,7 +1281,7 @@
 				5133053719931BFA00D72DBA /* bg_center_tips.png in Resources */,
 				5133063519931BFA00D72DBA /* bg_content_简介.png in Resources */,
 				513305A319931BFA00D72DBA /* ico_uplaod_photo9.png in Resources */,
-				5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */,
+				5133067919931BFA00D72DBA /* bg_tab_tip.png in Resources */,
 				5133070719935BA600D72DBA /* introPage-480h-4.xib in Resources */,
 				5133060919931BFA00D72DBA /* ico_login_back.png in Resources */,
 				513306B51993327E00D72DBA /* 3 主页-喜欢.jpg in Resources */,
@@ -1508,6 +1536,7 @@
 				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1527,6 +1556,7 @@
 				GCC_PREFIX_HEADER = "ArtWave/ArtWave-Prefix.pch";
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
