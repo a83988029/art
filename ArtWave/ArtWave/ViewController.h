@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "MYBlurIntroductionView.h"
+#import "TencentOpenAPI.framework/Headers/TencentOpenSDK.h"
 
-
-@interface ViewController : UIViewController<MYIntroductionDelegate>
-
+@class TencentOAuth;
+@interface ViewController : UIViewController<MYIntroductionDelegate,TencentSessionDelegate>
+@property (nonatomic,strong)TencentOAuth *tencentOAuth;
+@property (nonatomic,strong)NSArray *permissions;
 @end

@@ -270,8 +270,8 @@
 /* Begin PBXFileReference section */
 		512CC3CD199379A200E0BDBA /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 		512CC3CE199379A200E0BDBA /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
-		512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		512CC4881994769300E0BDBA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ArtWave/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		512CC4881994769300E0BDBA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ArtWave/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		512CC48B1994775D00E0BDBA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		512CC48D1994776700E0BDBA /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		512CC48F1994777000E0BDBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -583,8 +583,6 @@
 		512CC486199475FF00E0BDBA /* QQ-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */,
-				512CC4881994769300E0BDBA /* TencentOpenAPI.framework */,
 			);
 			name = "QQ-SDK";
 			sourceTree = "<group>";
@@ -611,6 +609,8 @@
 		5133033E19930ADA00D72DBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				512CC4871994769300E0BDBA /* TencentOpenApi_IOS_Bundle.bundle */,
+				512CC4881994769300E0BDBA /* TencentOpenAPI.framework */,
 				512CC497199477D200E0BDBA /* libz.dylib */,
 				512CC495199477CC00E0BDBA /* libstdc++.dylib */,
 				512CC493199477C100E0BDBA /* CoreTelephony.framework */,
@@ -1527,7 +1527,7 @@
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
@@ -1553,7 +1553,7 @@
 				INFOPLIST_FILE = "ArtWave/ArtWave-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;

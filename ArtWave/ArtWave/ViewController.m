@@ -8,13 +8,11 @@
 
 #import "ViewController.h"
 #import "CommonUtil.h"
-#import "TencentOpenAPI.framework/Headers/TencentOpenSDK.h"
 
-@interface ViewController ()<TencentSessionDelegate>
-@property (nonatomic,strong)TencentOAuth *tencentOAuth;
+@interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *labelTitle;
 @property (weak, nonatomic) IBOutlet UILabel *labelAccessToken;
-@property (nonatomic,strong)NSArray *permissions;
+
 @end
 
 @implementation ViewController
@@ -25,7 +23,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
     _tencentOAuth = [[TencentOAuth alloc] initWithAppId:@"1101987694" andDelegate:self];
     _permissions =  [NSArray arrayWithObjects:@"get_user_info",  nil];
-
 
 }
 
@@ -62,6 +59,7 @@
     {
         _labelAccessToken.text = @"登录不成功 没有获取accesstoken";
     }
+
 }
 
 /**
