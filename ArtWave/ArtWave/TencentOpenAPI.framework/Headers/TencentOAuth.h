@@ -18,6 +18,8 @@
 
 @class TencentApiReq;
 @class TencentApiResp;
+
+
 /**
  * \brief TencentOpenAPI授权登录及相关开放接口调用
  *

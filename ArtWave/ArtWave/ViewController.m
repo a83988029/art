@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CommonUtil.h"
+#import "UIImageView+WebCache.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *labelTitle;
@@ -17,12 +18,43 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getnoti:) name:@"test" object:nil];
 	// Do any additional setup after loading the view, typically from a nib.
     _tencentOAuth = [[TencentOAuth alloc] initWithAppId:@"1101987694" andDelegate:self];
-    _permissions =  [NSArray arrayWithObjects:@"get_user_info",  nil];
+    _permissions =  [NSArray arrayWithObjects:
+                     kOPEN_PERMISSION_GET_USER_INFO,
+                     kOPEN_PERMISSION_GET_SIMPLE_USER_INFO,
+                     kOPEN_PERMISSION_ADD_ALBUM,
+                     kOPEN_PERMISSION_ADD_IDOL,
+                     kOPEN_PERMISSION_ADD_ONE_BLOG,
+                     kOPEN_PERMISSION_ADD_PIC_T,
+                     kOPEN_PERMISSION_ADD_SHARE,
+                     kOPEN_PERMISSION_ADD_TOPIC,
+                     kOPEN_PERMISSION_CHECK_PAGE_FANS,
+                     kOPEN_PERMISSION_DEL_IDOL,
+                     kOPEN_PERMISSION_DEL_T,
+                     kOPEN_PERMISSION_GET_FANSLIST,
+                     kOPEN_PERMISSION_GET_IDOLLIST,
+                     kOPEN_PERMISSION_GET_INFO,
+                     kOPEN_PERMISSION_GET_OTHER_INFO,
+                     kOPEN_PERMISSION_GET_REPOST_LIST,
+                     kOPEN_PERMISSION_LIST_ALBUM,
+                     kOPEN_PERMISSION_UPLOAD_PIC,
+                     kOPEN_PERMISSION_GET_VIP_INFO,
+                     kOPEN_PERMISSION_GET_VIP_RICH_INFO,
+                     kOPEN_PERMISSION_GET_INTIMATE_FRIENDS_WEIBO,
+                     kOPEN_PERMISSION_MATCH_NICK_TIPS_WEIBO,
+                     nil];
+
+}
+
+-(void)getnoti:(NSNotification*)noti{
+    _labelAccessToken.text = [noti.userInfo objectForKey:@"url"];
+
 
 }
 
@@ -43,7 +75,27 @@
 }
 
 - (IBAction)qqlogin:(UIButton *)sender {
-    [_tencentOAuth authorize:_permissions inSafari:NO];
+    _tencentOAuth.openId = [[NSUserDefaults standardUserDefaults] valueForKey:@"openid"];
+    _tencentOAuth.expirationDate = [[NSUserDefaults standardUserDefaults] valueForKey:@"expireDate"];
+    _tencentOAuth.accessToken = [[NSUserDefaults standardUserDefaults] valueForKey:@"accesstoken"];
+
+    if ([_tencentOAuth isSessionValid]) {
+        [_tencentOAuth getUserInfo];
+//分享文本
+        QQApiTextObject *sendObj = [QQApiTextObject objectWithText:@"啦啦啦"];
+//分享链接
+//        QQApiURLObject *sendurlObj = [QQApiURLObject objectWithURL:<#(NSURL *)#> title:<#(NSString *)#> description:<#(NSString *)#> previewImageData:<#(NSData *)#> targetContentType:<#(QQApiURLTargetType)#>];
+//分享视频
+//        QQApiVideoObject *sendVideoObj = [QQApiVideoObject objectWithURL:<#(NSURL *)#> title:<#(NSString *)#> description:<#(NSString *)#> previewImageData:<#(NSData *)#> targetContentType:<#(QQApiURLTargetType)#>];
+
+        SendMessageToQQReq *message = [SendMessageToQQReq reqWithContent:sendObj];
+        QQApiSendResultCode *result = [QQApiInterface sendReq:message];
+        //处理分享结果
+        NSLog(@"result:%d",result);
+
+    }else{
+        [_tencentOAuth authorize:_permissions inSafari:NO];
+    }
 
 }
 
@@ -54,11 +106,36 @@
     {
         //  记录登录用户的OpenID、Token以及过期时间
         _labelAccessToken.text = _tencentOAuth.accessToken;
+
+        NSString *openid = _tencentOAuth.openId;
+        NSDate *expireDate = _tencentOAuth.expirationDate;
+
+
+        NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+        [userDefault setObject:openid forKey:@"openid"];
+        [userDefault setObject:_labelAccessToken.text forKey:@"accesstoken"];
+        [userDefault setObject:expireDate forKey:@"expireDate"];
+        [userDefault synchronize];
+
     }
     else
     {
         _labelAccessToken.text = @"登录不成功 没有获取accesstoken";
     }
+
+}
+
+
+/**
+ * 获取用户个人信息回调
+ * \param response API返回结果，具体定义参见sdkdef.h文件中\ref APIResponse
+ * \remarks 正确返回示例: \snippet example/getUserInfoResponse.exp success
+ *          错误返回示例: \snippet example/getUserInfoResponse.exp fail
+ */
+- (void)getUserInfoResponse:(APIResponse*) response{
+    NSLog(@"%@",response);
+    NSURL *headImageUrl_100 = [NSURL URLWithString:[response.jsonResponse objectForKey:@"figureurl_qq_2"]];
+    [_headImage sd_setImageWithURL:headImageUrl_100 placeholderImage:[UIImage imageNamed:@"default_head_small"]];
 
 }
 
@@ -135,7 +212,6 @@
 
 -(void)introduction:(MYBlurIntroductionView *)introductionView didChangeToPanel:(MYIntroductionPanel *)panel withIndex:(NSInteger)panelIndex{
     NSLog(@"Introduction did change to panel %d", panelIndex);
-
 
 }
 

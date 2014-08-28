@@ -13,5 +13,6 @@
 @class TencentOAuth;
 @interface ViewController : UIViewController<MYIntroductionDelegate,TencentSessionDelegate>
 @property (nonatomic,strong)TencentOAuth *tencentOAuth;
+@property (weak, nonatomic) IBOutlet UIImageView *headImage;
 @property (nonatomic,strong)NSArray *permissions;
 @end
